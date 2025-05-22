@@ -39,13 +39,15 @@ An autonomous AI agent that provides comprehensive drug information by integrati
    ```bash
    git clone https://github.com/19ankita/Agentic-AI-DruginfoAgent.git
    cd Agentic-AI-DruginfoAgent
-Install Dependencies:
+
+### Install Dependencies:
 
 bash
 Copy
 Edit
 pip install -r requirements.txt
-Run the Application:
+
+### Run the Application:
 
 bash
 Copy
@@ -60,7 +62,8 @@ bash
 Copy
 Edit
 docker build -t druginfo-agent .
-Run the Docker Container:
+
+### Run the Docker Container:
 
 bash
 Copy
@@ -86,8 +89,10 @@ Edit
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
+
 🧪 Testing
-Run the test suite using:
+
+### Run the test suite using:
 
 bash
 Copy
