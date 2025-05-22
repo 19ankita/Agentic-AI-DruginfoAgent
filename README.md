@@ -26,50 +26,31 @@ An autonomous AI agent that provides comprehensive drug information by integrati
   - [FastAPI](https://fastapi.tiangolo.com/)
 - **Containerization**: Docker
 
-## 📦 Installation
-
-### Prerequisites
-
-- Python 3.8 or higher
-- Docker (for containerized deployment)
-
-### Steps
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/19ankita/Agentic-AI-DruginfoAgent.git
-   cd Agentic-AI-DruginfoAgent
-
-### Install Dependencies:
-
+📦 Installation
+✅ Install Dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
-
-### Run the Application:
-
+▶️ Run the Application
 bash
 Copy
 Edit
 streamlit run streamlit_app.py
-The application will be accessible at http://localhost:8501.
+The application will be accessible at http://localhost:8501
 
 🐳 Docker Deployment
-Build the Docker Image:
-
+🔧 Build the Docker Image
 bash
 Copy
 Edit
 docker build -t druginfo-agent .
-
-### Run the Docker Container:
-
+🚀 Run the Docker Container
 bash
 Copy
 Edit
 docker run -p 8501:8501 druginfo-agent
-Access the application at http://localhost:8501.
+Visit the app at http://localhost:8501
 
 📁 Project Structure
 kotlin
@@ -89,10 +70,8 @@ Edit
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
-
 🧪 Testing
-
-### Run the test suite using:
+Run the test suite using:
 
 bash
 Copy
